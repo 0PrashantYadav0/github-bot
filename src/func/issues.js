@@ -123,7 +123,7 @@ const issueCommentCreated = async (context) => {
   }
   // === /extend Command (maintainer-only) ===
   else if (command.startsWith('/extend-')) {
-    const maintainers = ['0PrashantYadav0', 'maintainer1'];
+    const maintainers = ['0PrashantYadav0', 'MrImmortal09'];
     try {
       if (!maintainers.includes(sender)) {
         const body = `@${sender} is not authorized to extend assignment deadlines.`;
